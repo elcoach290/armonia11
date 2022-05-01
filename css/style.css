@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span{
+    color: #cb314f; 
+ }
+
+ table{
+     border-collapse: collapse;
+     border: solid 1px crimson;
+ }
+
+
+ td{
+     border: solid 1px crimson;
+ }
+
+ th, td{
+     padding: 5px;
+ }
+
+ h1, h2, ol, ul{
+     margin: 0;
+ }
+
+ h2{
+     text-align: center;
+     font-size: 40px;
+     padding: 10px 20px;
+ }
+
+
+
+section{
+     padding: 30px;
+ }
+
+/* =================== *\
+          CTAs
+\* =================== */
+
+.cta{
+    display: inline-block;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: deeppink;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    transition: background-color 300ms;
+}
+
+    .cta:hover{
+        background-color: rgb(225, 0, 120);
+    }
+
+/* =================== *\
+    C O N T A I N E R
+\* =================== */
+
+/* Esta clase container  me sirve para definir el ancho de mi layout */
+
+ .container{
+     width: 1170px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+/* ============= *\
+    H E A D E R
+\* ============= */
+
+.header{
+    border-bottom: solid 3px #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ .header-logo{
+     width: 140px;
+ }
+
+ .header-content{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .header-menu{
+     display: flex;
+     list-style: none;
+     align-items: center;
+     padding: 0;
+ }
+
+ .header-menu-link{
+     display: block;
+     padding: 5px 40px;
+     color: whitesmoke;
+     text-shadow: 0 0 5px deeppink;
+     text-decoration: none;
+     transition: color 300ms, text-shadow 300ms;
+ }
+    .header-menu-link:hover{
+        color: deeppink;
+        text-shadow: 0 0 5px #000;
+    }
+
+/* ==================== *\
+   E N D   H E A D E R
+\* ==================== */
+
+
+/* ============= *\
+    DISCOGRAFIA
+\* ============= */
+
+.discografia{
+    /* filter: grayscale(1);  */
+}
+
+ .discografia-content{
+     display: flex;
+     gap: 60px;
+     align-items: center;
+     /* flex-direction: row-reverse; */
+ }
+
+/* =============== *\
+    MERCHANDIZING
+\* =============== */
+
+.merchandising-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.merchandising-list-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: grayscale(1);
+    transition: filter 1s;
+}
+
+    .merchandising-list-img:hover{
+        filter: grayscale(0);
+    }
+
+/* =============== *\
+    C O N T A C T
+\* =============== */
+
+.contact-form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .contact-form-label{
+        color: deeppink;
+    }
+
+    .contact-form-field{
+        display: block;
+        width: inherit;
+        padding: 5px;
+        border: solid 2px #444;
+    }
+
+    .contact-form-field-textarea{
+        height: 150px;
+    }
+
+
+/* ============= *\
+    C O L O R S
+\* ============= */
+
+ .bg-color-00{
+     background-color: #333;
+ }
+
+.bg-color-01{
+    background-color: #fff;
+}
+
+.bg-color-02{
+    background-color: #444;
+}
+
+.bg-color-03{
+    background-color: whitesmoke;
+}
+
+.bgi-00{
+    background-image: url("../images/armonia-10.jpg");
+    background-position: center center;
+}
+
+.bgi-01{
+    background-image: url("../images/beach.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.color-00{
+    color: #333;
+}
+
+.color-01{
+   color: #fff;
+}
+
+.color-02{
+   color: deeppink;
+}
+
+.color-03{
+    color: whitesmoke;
+}
+
+.border-image{
+    border: solid 10px #cb314f;
+    border-radius: 30px;
+}
+
+.image-right{
+    display: block;
+    margin-left: auto;
+}
+
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
